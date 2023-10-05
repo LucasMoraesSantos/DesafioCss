@@ -1,0 +1,77 @@
+@import url(reset.css);
+
+#nav-bar .menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 8px 30px 30px 30px;
+}
+
+#nav-bar a{
+    vertical-align:middle;
+    margin-right: 20px;
+}
+
+#principal{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+}
+
+#principal .watching{
+    width: 952px;
+}
+
+.desc{
+    width: 600px;
+}
+
+.media{
+    margin-top: 10px;
+}
+
+.inf-vid{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.canal{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    gap: 42px;
+    margin: 10px 0px 10px 0px;
+}
+
+.desc-canal a{
+    vertical-align:sub;
+    margin-right: 10px;
+}
+
+.insc{
+    background-color: red;
+    color: white;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.view{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+#vd-roll{
+    margin-left: 30px;
+    line-height: 40px;
+}
+
+#vd-roll a{
+    vertical-align: top;
+    margin-right: 10px;
+}
